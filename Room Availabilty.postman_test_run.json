@@ -1,0 +1,280 @@
+{
+	"id": "ee6ceb8c-ccea-4ae2-b150-564186e5e1e8",
+	"name": "Room Availabilty",
+	"timestamp": "2025-05-10T10:21:29.736Z",
+	"collection_id": "44093525-83729cc0-7d3e-439b-99be-c0e76d173288",
+	"folder_id": 0,
+	"environment_id": "44093525-91b5e5af-fb34-41e4-9163-7bdce7a3b5d0",
+	"totalPass": 18,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-05-10T10:21:25.848Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "be0409ee-0fc3-40b6-980f-e3d705f8129a",
+			"name": "Valid",
+			"url": "https://4f78c940-a3cf-44f9-8fca-a0fd7ebb5d95.mock.pstmn.io/availability?checkin=2025-05-10&checkout=2025-05-15",
+			"time": 744,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 2000ms": true,
+				"Response has expected room list": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has expected room list": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				744
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 2000ms": true,
+					"Response has expected room list": true
+				}
+			]
+		},
+		{
+			"id": "2e9a2a06-2383-45c3-86d2-46f6f03a9cc4",
+			"name": "Missing Params",
+			"url": "https://4f78c940-a3cf-44f9-8fca-a0fd7ebb5d95.mock.pstmn.io/availability",
+			"time": 321,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 2000ms": true,
+				"Error message for missing params": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message for missing params": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				321
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 2000ms": true,
+					"Error message for missing params": true
+				}
+			]
+		},
+		{
+			"id": "c2277f9b-188f-4afa-a4da-bc20f55dcf78",
+			"name": "Invalid Date Format",
+			"url": "https://4f78c940-a3cf-44f9-8fca-a0fd7ebb5d95.mock.pstmn.io/availability?checkin=10-05-2025&checkout=15-05-2025",
+			"time": 253,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 2000ms": true,
+				"Error message for invalid date format": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message for invalid date format": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				253
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 2000ms": true,
+					"Error message for invalid date format": true
+				}
+			]
+		},
+		{
+			"id": "77d14846-4f04-4d52-9554-cd9c118423ef",
+			"name": "Past date",
+			"url": "https://4f78c940-a3cf-44f9-8fca-a0fd7ebb5d95.mock.pstmn.io/availability?checkin=2020-05-10&checkout=2025-05-15",
+			"time": 351,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 2000ms": true,
+				"Error message for past date": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message for past date": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				351
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 2000ms": true,
+					"Error message for past date": true
+				}
+			]
+		},
+		{
+			"id": "66237b3e-c8a9-4240-8a55-64520a24ef57",
+			"name": "Check out before check in",
+			"url": "https://4f78c940-a3cf-44f9-8fca-a0fd7ebb5d95.mock.pstmn.io/availability?checkin=2025-05-15&checkout=2025-05-10",
+			"time": 1153,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 2000ms": true,
+				"Error message for CheckOut date is before CheckIn date": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message for CheckOut date is before CheckIn date": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1153
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 2000ms": true,
+					"Error message for CheckOut date is before CheckIn date": true
+				}
+			]
+		},
+		{
+			"id": "82906423-3671-44b1-a1b3-313ae70f4d73",
+			"name": "Same check in & check out date",
+			"url": "https://4f78c940-a3cf-44f9-8fca-a0fd7ebb5d95.mock.pstmn.io/availability?checkin=2025-05-10&checkout=2025-05-10",
+			"time": 276,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 2000ms": true,
+				"Error message for CheckIn date is the same CheckOut date": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message for CheckIn date is the same CheckOut date": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				276
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 2000ms": true,
+					"Error message for CheckIn date is the same CheckOut date": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3098,
+	"collection": {
+		"requests": [
+			{
+				"id": "be0409ee-0fc3-40b6-980f-e3d705f8129a",
+				"method": "GET"
+			},
+			{
+				"id": "2e9a2a06-2383-45c3-86d2-46f6f03a9cc4",
+				"method": "GET"
+			},
+			{
+				"id": "c2277f9b-188f-4afa-a4da-bc20f55dcf78",
+				"method": "GET"
+			},
+			{
+				"id": "77d14846-4f04-4d52-9554-cd9c118423ef",
+				"method": "GET"
+			},
+			{
+				"id": "66237b3e-c8a9-4240-8a55-64520a24ef57",
+				"method": "GET"
+			},
+			{
+				"id": "82906423-3671-44b1-a1b3-313ae70f4d73",
+				"method": "GET"
+			}
+		]
+	}
+}

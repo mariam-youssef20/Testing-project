@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Admin Login Test Suite">
+    <test name="Admin Login Tests">
+        <classes>
+            <class name="com.example.LoginTest"/>
+            <class name="com.example.ContactFormTest"/>
+            <class name="com.example.RoomManagement"/>
+        </classes>
+    </test>
+</suite>

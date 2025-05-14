@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="15" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-10T08:39:53 EEST" name="Admin Login Test Suite" finished-at="2025-05-10T08:41:12 EEST" duration-ms="79155">
+    <groups>
+    </groups>
+    <test started-at="2025-05-10T08:39:53 EEST" name="Admin Login Tests" finished-at="2025-05-10T08:41:12 EEST" duration-ms="79155">
+      <class name="com.example.ContactFormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:09 EEST" name="setup" finished-at="2025-05-10T08:40:09 EEST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:09 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:40:12 EEST" duration-ms="2363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ali@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TC05 - Valid form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:12 EEST" name="tearDown" finished-at="2025-05-10T08:40:12 EEST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:12 EEST" name="setup" finished-at="2025-05-10T08:40:13 EEST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:13 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:40:17 EEST" duration-ms="3840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ali@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TC06 - Missing name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:17 EEST" name="tearDown" finished-at="2025-05-10T08:40:18 EEST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:18 EEST" name="setup" finished-at="2025-05-10T08:40:18 EEST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:18 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:40:22 EEST" duration-ms="3951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TC06 - Missing email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:22 EEST" name="tearDown" finished-at="2025-05-10T08:40:23 EEST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:23 EEST" name="setup" finished-at="2025-05-10T08:40:24 EEST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:24 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:40:28 EEST" duration-ms="4031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ali@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TC06 - Missing phone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:28 EEST" name="tearDown" finished-at="2025-05-10T08:40:28 EEST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:28 EEST" name="setup" finished-at="2025-05-10T08:40:29 EEST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:29 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:40:35 EEST" duration-ms="6364" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ali@domain]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TC07 - Invalid email (no @)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected validation errors not displayed for invalid submission expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected validation errors not displayed for invalid submission expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.example.ContactFormTest.verifyFormSubmission(ContactFormTest.java:141)
+at com.example.ContactFormTest.testContactForm(ContactFormTest.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:35 EEST" name="tearDown" finished-at="2025-05-10T08:40:36 EEST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:36 EEST" name="setup" finished-at="2025-05-10T08:40:37 EEST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:37 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:40:41 EEST" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ali@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Field Validation - Name with numbers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:41 EEST" name="tearDown" finished-at="2025-05-10T08:40:41 EEST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:41 EEST" name="setup" finished-at="2025-05-10T08:40:42 EEST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:42 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:40:46 EEST" duration-ms="4022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali@Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ali@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Field Validation - Name with special chars]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:46 EEST" name="tearDown" finished-at="2025-05-10T08:40:47 EEST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:47 EEST" name="setup" finished-at="2025-05-10T08:40:48 EEST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:48 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:40:52 EEST" duration-ms="4005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ali@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123abc456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Field Validation - Phone with letters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:52 EEST" name="tearDown" finished-at="2025-05-10T08:40:52 EEST" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:52 EEST" name="setup" finished-at="2025-05-10T08:40:53 EEST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:53 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:40:57 EEST" duration-ms="4004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ali@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Field Validation - Phone too short]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:57 EEST" name="tearDown" finished-at="2025-05-10T08:40:58 EEST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:58 EEST" name="setup" finished-at="2025-05-10T08:40:59 EEST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:40:59 EEST" name="testContactForm" data-provider="contactFormData" finished-at="2025-05-10T08:41:05 EEST" duration-ms="6180" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ali@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Room Inquiry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test message for testing contact form page]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Field Validation - Phone too long]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected validation errors not displayed for invalid submission expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected validation errors not displayed for invalid submission expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.example.ContactFormTest.verifyFormSubmission(ContactFormTest.java:141)
+at com.example.ContactFormTest.testContactForm(ContactFormTest.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.ContactFormTest@3c130745]" started-at="2025-05-10T08:41:05 EEST" name="tearDown" finished-at="2025-05-10T08:41:05 EEST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.ContactFormTest -->
+      <class name="com.example.RoomManagement">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.RoomManagement@cd3fee8]" started-at="2025-05-10T08:41:05 EEST" name="setup" finished-at="2025-05-10T08:41:06 EEST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC12_addNewRoom()[pri:12, instance:com.example.RoomManagement@cd3fee8]" started-at="2025-05-10T08:41:06 EEST" name="TC12_addNewRoom" finished-at="2025-05-10T08:41:09 EEST" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_addNewRoom -->
+        <test-method signature="TC13_editRoom()[pri:13, instance:com.example.RoomManagement@cd3fee8]" started-at="2025-05-10T08:41:09 EEST" name="TC13_editRoom" finished-at="2025-05-10T08:41:11 EEST" duration-ms="2086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_editRoom -->
+        <test-method signature="TC14_deleteRoomByName()[pri:14, instance:com.example.RoomManagement@cd3fee8]" started-at="2025-05-10T08:41:11 EEST" name="TC14_deleteRoomByName" finished-at="2025-05-10T08:41:12 EEST" duration-ms="633" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The room was not deleted successfully.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The room was not deleted successfully.
+at org.testng.Assert.fail(Assert.java:111)
+at com.example.RoomManagement.TC14_deleteRoomByName(RoomManagement.java:146)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_deleteRoomByName -->
+        <test-method signature="TC15_addRoomWithMissingFields()[pri:15, instance:com.example.RoomManagement@cd3fee8]" started-at="2025-05-10T08:41:12 EEST" name="TC15_addRoomWithMissingFields" finished-at="2025-05-10T08:41:12 EEST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_addRoomWithMissingFields -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:com.example.RoomManagement@cd3fee8]" started-at="2025-05-10T08:41:12 EEST" name="closeReport" finished-at="2025-05-10T08:41:12 EEST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.report" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.report" is null
+at com.example.RoomManagement.closeReport(RoomManagement.java:200)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.example.RoomManagement@cd3fee8]" started-at="2025-05-10T08:41:12 EEST" name="teardown" finished-at="2025-05-10T08:41:12 EEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.example.RoomManagement -->
+      <class name="com.example.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:39:53 EEST" name="setup" finished-at="2025-05-10T08:39:55 EEST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAdminLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:39:55 EEST" name="testAdminLogin" data-provider="loginCredentials" finished-at="2025-05-10T08:39:57 EEST" duration-ms="2249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:39:57 EEST" name="tearDown" finished-at="2025-05-10T08:39:58 EEST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:39:58 EEST" name="setup" finished-at="2025-05-10T08:39:59 EEST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAdminLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:39:59 EEST" name="testAdminLogin" data-provider="loginCredentials" finished-at="2025-05-10T08:40:01 EEST" duration-ms="2359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongadmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:40:01 EEST" name="tearDown" finished-at="2025-05-10T08:40:02 EEST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:40:02 EEST" name="setup" finished-at="2025-05-10T08:40:02 EEST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAdminLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:40:02 EEST" name="testAdminLogin" data-provider="loginCredentials" finished-at="2025-05-10T08:40:05 EEST" duration-ms="2289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:40:05 EEST" name="tearDown" finished-at="2025-05-10T08:40:05 EEST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:40:05 EEST" name="setup" finished-at="2025-05-10T08:40:06 EEST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAdminLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:40:06 EEST" name="testAdminLogin" data-provider="loginCredentials" finished-at="2025-05-10T08:40:08 EEST" duration-ms="2286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.LoginTest@7adda9cc]" started-at="2025-05-10T08:40:08 EEST" name="tearDown" finished-at="2025-05-10T08:40:09 EEST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.LoginTest -->
+    </test> <!-- Admin Login Tests -->
+  </suite> <!-- Admin Login Test Suite -->
+</testng-results>

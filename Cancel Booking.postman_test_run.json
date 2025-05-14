@@ -1,0 +1,152 @@
+{
+	"id": "13d6ecb4-066a-4833-bdd0-a6a31bff6f87",
+	"name": "Cancel Booking",
+	"timestamp": "2025-05-10T10:19:11.511Z",
+	"collection_id": "44093525-61714a1a-1100-4875-8308-6b1223a3bcbd",
+	"folder_id": 0,
+	"environment_id": "44093525-1faed6a6-e4c9-4fd7-9ce9-0a8b40c9455e",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-05-10T10:19:09.623Z",
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "78f52eaf-8e1e-4b7d-bd2e-4b8317573ecf",
+			"name": "Get Auth Token",
+			"url": "https://restful-booker.herokuapp.com/auth",
+			"time": 200,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				200
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "553d6658-f1b8-4f57-a965-6071bf70b4c3",
+			"name": "Create Booking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				135
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "22dfb70c-9e9a-4d4a-9264-617650128a37",
+			"name": "Cancel Booking",
+			"url": "https://restful-booker.herokuapp.com/booking/3952",
+			"time": 146,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				146
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "04d34956-a634-478c-9d5e-6597ecb65735",
+			"name": "Cancel Booking Again (Negative Test)",
+			"url": "https://restful-booker.herokuapp.com/booking/3952",
+			"time": 180,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Status code is 400, 404": false,
+				"Error message (if present) mentions invalid, deleted": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Error message (if present) mentions invalid, deleted": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				180
+			],
+			"allTests": [
+				{
+					"Status code is 400, 404": false,
+					"Error message (if present) mentions invalid, deleted": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 661,
+	"collection": {
+		"requests": [
+			{
+				"id": "78f52eaf-8e1e-4b7d-bd2e-4b8317573ecf",
+				"method": "POST"
+			},
+			{
+				"id": "553d6658-f1b8-4f57-a965-6071bf70b4c3",
+				"method": "POST"
+			},
+			{
+				"id": "22dfb70c-9e9a-4d4a-9264-617650128a37",
+				"method": "DELETE"
+			},
+			{
+				"id": "04d34956-a634-478c-9d5e-6597ecb65735",
+				"method": "DELETE"
+			}
+		]
+	}
+}
